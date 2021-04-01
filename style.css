@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+}
+progress{
+    -webkit-appearance: none;
+    width:50%;
+    height:30px;
+    border:1px solid #ccc;
+    color:#aaa;
+   border-radius:30px;
+  
+    
+}
+
+.progress{
+    height:40px;
+    width:500px;
+    background-color:gray;
+    margin:50px;
+    border-radius:20px;
+}
+.progress-data{
+    background:linear-gradient(to left,orange,pink);
+    height:100%;
+    width:0;
+    color: white;;
+    opacity:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:20px;
+    box-shadow: 0px 3px 3px -5px orange, 0px 2px 5px orange;
+    transition: 1s ease ;
+}
